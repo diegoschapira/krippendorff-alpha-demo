@@ -3,5 +3,9 @@
 
 This is a standard statistic used to evaluate reliability of 'ground truth' training sets for Machine Learning applications created using crowdsourcing methodologies like Amazon's Mechanical Turk.
 
-# Source code:
-https://github.com/grrrr/krippendorff-alpha
+Values range from 0 to 1, where 0 is perfect disagreement and 1 is perfect agreement. Krippendorff suggests: “It is customary to require α ≥ .800. Where tentative conclusions are still acceptable, α ≥ .667 is the lowest conceivable limit".
+
+# References:
+Python code: https://github.com/grrrr/krippendorff-alpha
+
+Krippendorff, K. (2011). “Computing Krippendorff’s alpha-reliability.” Philadelphia: Annenberg School for Communication Departmental Papers. Retrieved July 6, 2011 from: http://repository.upenn.edu/cgi/viewcontent.cgi?article=1043&context=asc_papers
